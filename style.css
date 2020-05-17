@@ -1,6 +1,8 @@
+/*The background color for the body part of my pages*/
 .body {
     background-color: darkslategray
 }
+/*The name located in the navbar. I also used Google Fonts to style this part.*/
 .first-and-last-name {
     color: white;
     position: relative;
@@ -9,23 +11,29 @@
     margin-top:O;
     margin-bottom:0;
 }
+/*These are the navigation buttons. They are colored in gray so that the color-theme is consistent with the overall colors in the pages*/
 .nav-link { 
     color: slategray;
 }
+/*The container will have a space from the top. I inserted this space so that there is space between the navbar and the main content*/
 .container {
     margin-top: 50px;
 }
+/*This is the divider line*/
 .divider {
 	border-top: 2px solid lightgray;
 }
+/*The card title is given here. I used a custom color to style it*/
 .card-title {
     color: #b2e0dd;
     font-weight:bold;
 }
+/*The following CSS style applies for the card in the About page*/
 .card-mb-3 {
     width: 40rem;
     height: 10 rem;
 }
+/*The profile picture in the About page. I used object fit so that the object will be resized to fit the container*/
 .img-thumbnail {
     width: 40%;
     object-fit: cover;
@@ -33,21 +41,19 @@
     float: left;
     margin-right: 20px;
 }
+/*This corresponds to the body of the card in all three pages*/
 .card-body {
     background-color: whitesmoke;
     border-color: whitesmoke;
     width: 40rem;
     height: 30rem;
 }
+/*This corresponds to the text color of the cards in all three pages*/
 .card-text {
     color: darkslategrey;
 }
+/*Styles the Submit button in contact form. I used a background and border color consistent with the color-theme*/
 .btn-primary {
     background-color: #b2e0dd;
     border-color: #b2e0dd;
 }
-
-.card-image-top {
-    width: 18rem;
-}
-

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +11,9 @@
     <!--The following link links to my own CSS style sheet-->
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <!--I used a container-fluid div, which resizes how the content is viewed based on the the width of the window/browser-->
+    <!--This part is identical to the navbar in index. I only disabled the contact link since users will already be on this page when they are viewing it-->
     <div class="container-fluid">
-        <!--The navbar is a row-->
         <div class="row">
             <div class="col-md">
                 <nav class="navbar navbar-expand-lg .navbar-fixed-top navbar-light bg-light">
@@ -34,23 +31,26 @@
             </div>
         </div>
     </div>
-
     <div class="container">
         <div class="row">
             <div class="col-md-6" <div class="card mb-3">
                 <div class="card-body">
                     <h2 class="card-title">CONTACT<h2>
-                            <hr class="divider"></hr>
+                            <hr class="divider">
+                            </hr>
+                            <!--Here is a form from Bootstrap. I wanted them to be on separate lines, so I allocated one column for each (considering the form is a 12-space-grid by default-->
                             <form>
                                 <div class="form-row">
                                     <div class="form-group col-md-12">
                                         <label for="inputEmail">Email</label>
                                         <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                                     </div>
+                                    <!--I changed the labels and names-->
                                     <div class="form-group col-md-12">
                                         <label for="inputMessage">Message</label>
                                         <input type="text" class="form-control" id="inputMessage" placeholder="Message">
                                     </div>
+                                    <!--I changed the button type and placed a submit button-->
                                     <button type="submit" class="btn btn-primary">Submit</button>
                                 </div>
                             </form>
@@ -58,8 +58,6 @@
             </div>
         </div>
     </div>
-    </div>
-
+</div>
 </body>
-
 </html>
