@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,30 +12,32 @@
   <!--The following link links to my own CSS style sheet-->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<!--I used a container-fluid div to make the navbar 100% wide-->
-<div class="container-fluid">
-  <!--The navbar is a row-->
-  <div class="row">
-    <!--I divided the row into 4 columns. The first column is where my name header is located and the remaining columns include the rest of the navigation links-->
+  <!--I used a container-fluid div to make the navbar 100% wide-->
+  <div class="container-fluid">
+    <!--The navbar is a row-->
+    <div class="row">
+      <!--I divided the row into 4 columns. The first column is where my name header is located and the remaining columns include the rest of the navigation links-->
       <div class="col-md">
-          <nav class="navbar navbar-expand-lg .navbar-fixed-top navbar-light bg-light">
-              <h1 class="first-and-last-name">BEGUM SACAK</h1>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup"></div>
-              <!--I included navbar-right to place navigation items on the top-right side of the screen-->
-              <div class="nav navbar navbar-right">
-                <!--I used a disabled link for the about part so that a person landing on this page cannot click on it-->
-                  <div class="col-md"> <a class="nav-item nav-link disabled" href="#">About</a>
-                  </div>
-                  <div class="col-md"> <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                  </div>
-                  <div class="col-md"> <a class="nav-item nav-link" href="contact.html">Contact</a>
-                  </div>
-              </div>
-          </nav>
+        <nav class="navbar navbar-expand-lg .navbar-fixed-top navbar-light bg-light">
+          <h1 class="first-and-last-name">BEGUM SACAK</h1>
       </div>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup"></div>
+      <!--I included navbar-right to place navigation items on the top-right side of the screen-->
+      <div class="nav navbar navbar-right">
+        <!--I used a disabled link for the about part so that a person landing on this page cannot click on it-->
+        <div class="col-md"> <a class="nav-item nav-link disabled" href="#">About</a>
+        </div>
+        <div class="col-md"> <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+        </div>
+        <div class="col-md"> <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+      </nav>
+
+    </div>
   </div>
-</div>
   <!--This time, I used a container because I didn't want the container to take up the whole page but instead, I wanted it to be limited to a particular size.-->
   <div class="container">
     <div class="row">
@@ -45,7 +48,8 @@
           <div class="card-body">
             <h2 class="card-title">ABOUT ME</h2>
             <!--This is for the divider line between about me section and the rest of the text-->
-            <hr class="divider"></hr>
+            <hr class="divider">
+            </hr>
             </hr>
             <img src="https://ca.slack-edge.com/T0123273M43-U012C9JB7DY-da1c0d5c9719-512"
               class="img-thumbnail img-fluid card-image-left" alt="begum-sacak-profile">
@@ -61,5 +65,10 @@
       </div>
     </div>
   </div>
+  <footer>
+    <nav id="footer" class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1"></span>
+    </nav>
+  </footer>
 </body>
 </html>

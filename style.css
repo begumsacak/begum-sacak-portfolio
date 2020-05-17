@@ -1,6 +1,7 @@
 /*The background color for the body part of my pages*/
 .body {
-    background-color: darkslategray
+    background-color: darkslategray;
+    padding-bottom: 20px;
 }
 /*The name located in the navbar. I also used Google Fonts to style this part.*/
 .first-and-last-name {
@@ -51,6 +52,11 @@
 /*This corresponds to the text color of the cards in all three pages*/
 .card-text {
     color: darkslategrey;
+}
+#footer {
+    position: fixed;
+    bottom:0;
+    width:100%;
 }
 /*Styles the Submit button in contact form. I used a background and border color consistent with the color-theme*/
 .btn-primary {
