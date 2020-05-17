@@ -1,0 +1,53 @@
+.body {
+    background-color: darkslategray
+}
+.first-and-last-name {
+    color: white;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #b2e0dd;
+    margin-top:O;
+    margin-bottom:0;
+}
+.nav-link { 
+    color: slategray;
+}
+.container {
+    margin-top: 50px;
+}
+.divider {
+	border-top: 2px solid lightgray;
+}
+.card-title {
+    color: #b2e0dd;
+    font-weight:bold;
+}
+.card-mb-3 {
+    width: 40rem;
+    height: 10 rem;
+}
+.img-thumbnail {
+    width: 40%;
+    object-fit: cover;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+}
+.card-body {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    width: 40rem;
+    height: 30rem;
+}
+.card-text {
+    color: darkslategrey;
+}
+.btn-primary {
+    background-color: #b2e0dd;
+    border-color: #b2e0dd;
+}
+
+.card-image-top {
+    width: 18rem;
+}
+
