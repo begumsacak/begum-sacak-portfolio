@@ -58,6 +58,22 @@
     bottom:0;
     width:100%;
 }
+#top-navbar {
+    position: fixed;
+    top:0;
+    width= 100px;
+    margin-bottom: 20px;
+}
+.card-deck {
+    margin-top: 80px;
+    margin-right: 50px;
+    margin-left:50px;
+
+}
+.card-1 {
+    margin-right:50px;
+}
+
 /*Styles the Submit button in contact form. I used a background and border color consistent with the color-theme*/
 .btn-primary {
     background-color: #b2e0dd;

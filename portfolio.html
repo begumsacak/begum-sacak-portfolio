@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,47 +12,56 @@
     <!--The following link links to my own CSS style sheet-->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!--This part is identical to the navbar in index. I only disabled the portfolio link since users will already be on this page when they are viewing it-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md">
+            <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg .navbar-fixed-top navbar-light bg-light">
                     <h1 class="first-and-last-name">BEGUM SACAK</h1>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup"></div>
                     <div class="nav navbar navbar-right">
-                        <div class="col-md"> <a class="nav-item nav-link" href="index.html">About</a>
-                        </div>
-                        <div class="col-md"> <a class="nav-item nav-link disabled" href="#">Portfolio</a>
-                        </div>
-                        <div class="col-md"> <a class="nav-item nav-link" href="contact.html">Contact</a>
-                        </div>
+                        <a class="nav-item nav-link" href="index.html">About</a>
+                        <a class="nav-item nav-link disabled" href="#">Portfolio</a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
                     </div>
-                </nav>
+            </div>
+            </nav>
+        </div>
+    </div>
+    </div>
+    <div class="card-deck">
+        <div class="card-1">
+            <div class="card-image-top embed-responsive embed-responsive-21by9">
+                <img class="embed-responsive-item"
+                    src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=blur-close-up-code-computer-546819.jpg&fm=jpg"
+                    alt="coding"></img>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Code Refractor</h5>
+                <p class="card-text">In this project, I reviewed an existing code set to clean it up and make changes to
+                    improve it</p>
+                <a href="https://github.com/begumsacak/homework-1" class="btn btn-primary">See Github Page</a>
+            </div>
+        </div>
+        <div class="card-2">
+            <div class="card-image-top embed-responsive embed-responsive-21by9">
+                <img class="embed-responsive-item"
+                    src="https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                    alt="coding"></img>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Responsive Pages</h5>
+                <p class="card-text">In this project, I created a simple responsive webpage by using Bootstrap</p>
+                <a href="https://github.com/begumsacak/homework-2" class="btn btn-primary">See Github Page</a>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <!--Here, I inserted a simple card. More cards will be added as I create more projects. I will also add an image.-->
-                <div class="card" style="width: 10rem;">
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Code Refractor</h5>
-                    <p class="card-text">In this project, I cleaned up an existing code and reviewed the code to make
-                        sure there are no mistakes.
-                    </p>
-                    <!--I linked to the specific Github page I created for this homework-->
-                    <a href="https://github.com/begumsacak/homework-1" class="btn btn-primary">See Github Link</a>
-                </div>
-            </div>
-        </div>
-    </div>
-<footer>
-    <nav id="footer" class="navbar navbar-dark bg-dark">
-        <span class="navbar-brand mb-0 h1"></span>
-    </nav>
-</footer>
+    <footer>
+        <nav id="footer" class="navbar navbar-dark bg-dark fixed-bottom">
+            <span class="navbar-brand mb-0 h1">@Copyright Begum Sacak</span>
+        </nav>
+    </footer>
 </body>
 </html>
