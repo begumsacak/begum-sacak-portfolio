@@ -15,7 +15,7 @@ In this project, I tried to create a responsive portfolio page of mine. I used B
 
 ### Live Website
 
-Please access the live website from this link: https://github.com/begumsacak/homework-2
+Please access the live website from this link: https://begumsacak.github.io/homework-2/
 
 ## Authors
 
