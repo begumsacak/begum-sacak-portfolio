@@ -3,13 +3,16 @@
     background-color: darkslategray;
     padding-bottom: 20px;
 }
+#navbar {
+    padding:0;
+}
 /*The name located in the navbar. I also used Google Fonts to style this part.*/
 .first-and-last-name {
     color: white;
     position: relative;
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #b2e0dd;
-    margin-top:O;
+    height: 70px;
     margin-bottom:0;
 }
 /*These are the navigation buttons. They are colored in gray so that the color-theme is consistent with the overall colors in the pages*/
@@ -17,7 +20,7 @@
     color: slategray;
 }
 /*The container will have a space from the top. I inserted this space so that there is space between the navbar and the main content*/
-.container {
+main.container {
     margin-top: 50px;
 }
 /*This is the divider line*/
@@ -45,9 +48,11 @@
 /*This corresponds to the body of the card in all three pages*/
 .card-body {
     background-color: whitesmoke;
-    border-color: whitesmoke;
     width: 40rem;
     height: 30rem;
+}
+#card-border {
+    border:none;
 }
 /*This corresponds to the text color of the cards in all three pages*/
 .card-text {
@@ -58,22 +63,18 @@
     bottom:0;
     width:100%;
 }
-#top-navbar {
-    position: fixed;
-    top:0;
-    width= 100px;
-    margin-bottom: 20px;
-}
 .card-deck {
     margin-top: 80px;
     margin-right: 50px;
     margin-left:50px;
 
 }
+.portfolio-image {
+    max-width: 640;
+}
 .card-1 {
     margin-right:50px;
 }
-
 /*Styles the Submit button in contact form. I used a background and border color consistent with the color-theme*/
 .btn-primary {
     background-color: #b2e0dd;

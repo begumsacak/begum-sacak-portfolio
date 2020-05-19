@@ -14,18 +14,23 @@
 <body>
     <!--This part is identical to the navbar in index. I only disabled the contact link since users will already be on this page when they are viewing it-->
     <section class="container-fluid">
+        <!--The navbar is a row-->
         <div class="row">
-            <div class="col-md-12">
-                <nav class= "navbar navbar-expand-md .navbar-fixed-top navbar-light bg-light">
-                    <h1 class="first-and-last-name">BEGUM SACAK</h1>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup"></div>
-                    <div class="nav navbar navbar-right">
-                        <a class="nav-item nav-link" href="index.html">About</a>
-                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link disabled" href="#">Contact</a>
-                    </div>
-                </nav>
-            </div>
+          <!--I divided the row into 1 big column-->
+          <div class="col-md-12">
+            <nav id="navbar" class="navbar navbar-expand-md navbar-fixed-top navbar-light bg-light">
+              <div class="container">
+              <h1 class="first-and-last-name">BEGUM SACAK</h1>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup"></div>
+          <!--I included navbar-right to place navigation items on the top-right side of the screen-->
+          <div class="nav navbar navbar-right">
+            <!--I used a disabled link for the about part so that a person landing on this page cannot click on it-->
+             <a class="nav-item nav-link disabled" href="#">About</a>
+             <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+             <a class="nav-item nav-link" href="contact.html">Contact</a>
+          </div>
+              </div>
+            </nav>
         </div>
     </section>
     <main class="container">
@@ -39,7 +44,7 @@
                             <form>
                                 <div class="form-row">
                                     <div class="form-group col-md-12">
-                                        <label for="inputEmail">Email</label>
+                                        <id ="label" label for="inputEmail">Email</label>
                                         <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                                     </div>
                                     <!--I changed the labels and names-->
