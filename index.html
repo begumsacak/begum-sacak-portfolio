@@ -1,69 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home Page</title>
   <!--I linked the Bootstrap stylesheet here at the very beginning-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <!--At the top of the page where I inserted my name, I used Google Fonts-->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
   <!--The following link links to my own CSS style sheet-->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <!--I used a container-fluid div to make the navbar 100% wide-->
-  <section class="container-fluid">
-    <!--The navbar is a row-->
-    <div class="row">
-      <!--I divided the row into 1 big column-->
-      <div class="col-md-12">
-        <nav id="navbar" class="navbar navbar-expand-md navbar-fixed-top navbar-light bg-light">
-          <div class="container">
-          <h1 class="first-and-last-name">BEGUM SACAK</h1>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup"></div>
-      <!--I included navbar-right to place navigation items on the top-right side of the screen-->
-      <div class="nav navbar navbar-right">
-        <!--I used a disabled link for the about part so that a person landing on this page cannot click on it-->
-         <a class="nav-item nav-link disabled" href="#">About</a>
-         <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-         <a class="nav-item nav-link" href="contact.html">Contact</a>
-      </div>
-          </div>
-        </nav>
+  <!--Responsive Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-top">
+        <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link disabled" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
     </div>
-  </section>
-  <!--This time, I used a container because I didn't want the container to take up the whole page but instead, I wanted it to be limited to a particular size.-->
-  <main class="container">
-    <div class="row">
-      <!--Here, I wanted to inlcude the card in a column that takes up 6 spaces in a 12-space-grid.-->
-      <div class="col-md-6">
-        <!--Here, I used the card component/code from Bootstrap-->
-        <div id="card-border" class="card mb-3">
-          <div class="card-body">
-            <h2 class="card-title">ABOUT ME</h2>
-            <!--This is for the divider line between about me section and the rest of the text-->
-            <hr class="divider">
-            </hr>
-            </hr>
-            <img src="https://ca.slack-edge.com/T0123273M43-U012C9JB7DY-da1c0d5c9719-512"
-              class="img-thumbnail img-fluid card-image-left" alt="begum-sacak-profile">
-            <p class="card-text">My name is Begum, and I am a learning engineer in the School of Communication at
-              Northwestern
-              University. I help faculty design their online courses and provide them with instructional support such as
-              best
-              practices in online teaching and Canvas support. In addition, I just started to learn coding. I would like
-              to be
-              able to use my coding skills to offer better instructional resources for students and instructors. </p>
-          </div>
-        </div>
-      </div>
+  </nav>
+<!--Name-->
+  <div class="container d-flex justify-content-center align-items-center" id="Name">
+    <div class="row" <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+      <h1>Begüm Saçak</h1>
     </div>
-  </main>
+  </div>
+  </div>
+<!--Footer-->
   <footer>
-    <nav id="footer" class="navbar navbar-dark bg-dark fixed-bottom">
-      <span class="navbar-brand mb-0 h1">@Copyright Begum Sacak</span>
+    <nav id="footer" class="page-footer fixed-bottom">
+      <span class="navbar-brand mb-0 h5">@Copyright Begüm Saçak</span>
     </nav>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
