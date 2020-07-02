@@ -11,11 +11,7 @@ In this project, I tried to create a responsive portfolio page of mine. I used B
 * You can access the live website via https://github.com/begumsacak/begum-sacak-portfolio
 * Clone the HTTPS to your Terminal to download the raw files of HTML and CSS with edits. 
 
-### Live Website
-
-Please access the live website from this link: https://begumsacak.github.io/homework-2/
-
-## Authors
+## Author
 
 Contributors names and contact info
 
