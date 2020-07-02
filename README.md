@@ -1,9 +1,5 @@
 # Begum's Portfolio
 
-## Description
-
-In this project, I tried to create a responsive portfolio page of mine. I used Bootstrap to create responsive design. 
-
 ## Getting Started
 
 ### Cloning the CSS/HTML files from Repository
