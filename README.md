@@ -1,6 +1,4 @@
-# Homework Title
-
-Homework 2 - Responsive Portfolio
+# Begum's Portfolio
 
 ## Description
 
@@ -10,7 +8,7 @@ In this project, I tried to create a responsive portfolio page of mine. I used B
 
 ### Cloning the CSS/HTML files from Repository
 
-* Please go to https://github.com/begumsacak/homework-2
+* You can access the live website via https://github.com/begumsacak/begum-sacak-portfolio
 * Clone the HTTPS to your Terminal to download the raw files of HTML and CSS with edits. 
 
 ### Live Website
